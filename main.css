@@ -1,4 +1,4 @@
-@import url('https:fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0%;
     margin: 0%;
@@ -185,7 +185,7 @@ header .content .choose_bx .stay_bx button:hover{
     background: #fff;
     color: #000;
 }
-header .content .choose_bx  .stay_bx button:nth-child(1){
+header .content .choose_bx .stay_bx button:nth-child(1){
     border-radius: 10px 0px 0px 0px;
     background: #fff;
     color: #000;
@@ -193,7 +193,7 @@ header .content .choose_bx  .stay_bx button:nth-child(1){
 header .content .choose_bx .stay_bx button:nth-last-child(1){
     border-radius: 0px 10px 0px 0px;
 }
-header .content .choose_bx  .stay_bx button i{
+header .content .choose_bx .stay_bx button i{
     margin-right: 5px;
 }
 header .content .choose_bx .select{
@@ -245,4 +245,5 @@ header .content .choose_bx .select .card button{
     margin-top: 5px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    transition: .3s linear;
 }
