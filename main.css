@@ -314,3 +314,15 @@ header .content .choose_bx .select .card:nth-child(3) .date h5{
     left: 0;
     z-index: 2;
 }
+.map .address_bx{
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    background: #fff;
+    box-shadow: 4px 4px 25px gray;
+    border-radius: 8px;
+    padding: 0px 20px;
+    top: 44%;
+    left: 30%;
+    z-index: 999;
+}
