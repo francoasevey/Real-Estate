@@ -247,3 +247,38 @@ header .content .choose_bx .select .card button{
     cursor: pointer;
     transition: .3s linear;
 }
+header .content .choose_bx .select .card button:hover{
+    border-bottom: 2px solid rgb(177, 177, 177);
+}
+header .content .choose_bx .select .card:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+header .content .choose_bx .select .card:nth-child(3) .date{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid #000;*/ 
+}
+header .content .choose_bx .select .card:nth-child(3) .date input{
+    width: 25px;
+    height: 30px;
+    margin-left: 10px;
+    z-index: 99999999999999999999999999;
+    opacity: 0;
+}
+header .content .choose_bx .select .card:nth-child(3) .date i{
+    position: absolute;
+    left: 85%;
+    font-size: 23px;
+    z-index: -1;
+}
+header .content .choose_bx .select .card:nth-child(3) .date h3{
+    width: 120px;
+}
+header .content .choose_bx .select .card:nth-child(3) .date h5{
+    font-size: 13px;
+    font-weight: 600;
+}
