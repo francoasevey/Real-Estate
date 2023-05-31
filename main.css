@@ -282,3 +282,12 @@ header .content .choose_bx .select .card:nth-child(3) .date h5{
     font-size: 13px;
     font-weight: 600;
 }
+.map{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    border: 1px solid #000;
+    top: -130px;
+    overflow: hidden;
+    z-index: 0;
+}
