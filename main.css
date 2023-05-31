@@ -286,7 +286,7 @@ header .content .choose_bx .select .card:nth-child(3) .date h5{
     position: relative;
     width: 100%;
     height: 380px;
-    /*border: 1px solid #000;*/
+    border: 1px solid #000;
     top: -130px;
     overflow: hidden;
     z-index: 0;
@@ -325,4 +325,66 @@ header .content .choose_bx .select .card:nth-child(3) .date h5{
     top: 44%;
     left: 30%;
     z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.map .address_bx .bi{
+    font-size: 25px;
+}
+.home{
+    position: relative;
+    width: 65%;
+    height: 230px;
+    margin: auto;
+    border: 1px solid #000;
+    top: -220px;
+    z-index: 2;
+}
+.home .title_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .title_button button{
+    position: absolute;
+    right: 0;
+    padding: 8px 15px;
+    background: #fff;
+    color: #000;
+    box-shadow: 3px 3px 25px rgb(233, 233, 233,);
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font: 12px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.home .title_button button:hover{
+    background: #000;
+    color: #fff;
+}
+.home .title_button button .bi{
+    margin-left: 5px;
+}
+.home .home_bx{
+    width: 100%;
+    margin-top: 50px;
+    /*border: 1px solid #000;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .home_bx .card{
+    position: relative;
+    width: 180px;
+    height: 260px;
+    border-radius: 15px;
+    /*border: 1px solid #000;*/
+}
+.home .home_bx .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
