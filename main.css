@@ -388,3 +388,29 @@ header .content .choose_bx .select .card:nth-child(3) .date h5{
     height: 100%;
     border-radius: 15px;
 }
+.home .home_bx .card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: 999;
+}
+.home .home_bx .card .content .bi{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #fff;
+}
+.home .home_bx .card .content .bi::after{
+    content: '';
+    position: absolute;
+    width: 165%;
+    height: 110%;
+    background: rgb(194, 194, 194, .3);
+    left: -35%;
+    top: -3px;
+    border-radius: 50%;
+    z-index: -1;
+}
