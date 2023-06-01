@@ -103,3 +103,44 @@
         left: 2%;
     }
 }
+@media screen and (max-width: 541px) {
+    header nav .right_bx ul {
+        position: absolute;
+        width: 320px;
+        height: auto;
+        top: 40px;
+        right: -20px;
+        padding: 10px;
+        z-index: 9999999999999;
+        align-items: center;
+    }
+    header nav .right_bx ul li {
+        padding: 15px 10px;
+    }
+    header nav .right_bx ul li a {
+        color: #fff;
+    }
+    header nav .right_bx ul li:nth-last-child(1) {
+        border: none;
+        border-radius: none;
+        padding: 3px 14px;
+    }
+    header nav .right_bx ul li:nth-last-child(1) a {
+        color: #fff;
+    }
+    .home {
+        width: 98%;
+    }
+    .home .home_bx {
+        width: 100%;
+    }
+    .map .address_bx {
+        width: 165px;
+    }
+    .map .address_bx .location_bx h4 {
+        font-size: 12px;
+    }
+    .map .address_bx .location_bx .bi {
+        font-size: 17px;
+    }
+}
