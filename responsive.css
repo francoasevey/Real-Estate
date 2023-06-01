@@ -1,0 +1,14 @@
+@media screen and (max-width: 1402px) {
+    header {
+        width: 95%;
+    }
+    .home {
+        width: 95%;
+    }
+    section {
+        width: 95%;
+    }
+    .map .address_bx {
+        left: 25%;
+    }
+}
