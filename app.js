@@ -14,3 +14,14 @@ people_less.addEventListener('click', () => {
         people.value = people_index + ' People';
     }
 })
+
+people_more.addEventListener('click', () => {
+    people_index += 1;
+
+    if(people_index >= 4){
+        people_index = 4;
+        people.value = people_index + ' People';
+    } else {
+        people.value = people_index + ' People';
+    }
+})
