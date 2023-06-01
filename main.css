@@ -533,3 +533,7 @@ footer {
 footer h4 {
     color: #fff;
 }
+
+footer h4 .bi {
+    margin-right: 5px;
+}
