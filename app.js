@@ -146,3 +146,17 @@ checkout_less.addEventListener('click', () => {
     checkout_data.innerText = day + ', ' + date + ' ' + month;
 
 })
+
+const images = [
+    "url('/img/bg.png') no-repeat center/cover",
+    "url('/img/bg2.jpg') no-repeat center/cover",
+    "url('/img/bg3.jpeg') no-repeat center/cover"
+]
+
+let index = 1;
+let h6 = document.getElementById('h6');
+
+h6.innerText = "+" + images.length;
+
+let btn_left = document.getElementById('btn_left');
+let btn_right = document.getElementById('btn_right');
