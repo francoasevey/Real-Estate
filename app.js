@@ -170,3 +170,12 @@ btn_left.addEventListener('click', ()=> {
 
     style.setProperty('--background', images[index])
 })
+
+btn_right.addEventListener('click', ()=> {
+    index ++;
+    if (index > (images.length) - 1) {
+        index = 0;
+    }
+
+    style.setProperty('--background', images[index])
+})
