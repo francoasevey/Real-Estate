@@ -160,3 +160,13 @@ h6.innerText = "+" + images.length;
 
 let btn_left = document.getElementById('btn_left');
 let btn_right = document.getElementById('btn_right');
+let style = document.getElementsByClassName('content')[0].style;
+
+btn_left.addEventListener('click', ()=> {
+    index -= 1;
+    if (index < 0) {
+        index = (images.length) - 1;
+    }
+
+    style.setProperty('--background', images[index])
+})
