@@ -120,13 +120,13 @@ checkout_more.addEventListener('click', () => {
     let today = new Date();
     let tomorrow = new Date(today);
 
-    tomorrow.setDate(tomorrow.getDate() + 1);
+    tomorrow.setDate(tomorrow.getDate() + 2);
 
     let day = week[tomorrow.getDay()];
     let date = tomorrow.getDate();
     let month = monts[tomorrow.getMonth()];
 
-    checkin_data.innerText = day + ', ' + date + ' ' + month;
+    checkout_data.innerText = day + ', ' + date + ' ' + month;
 
 })
 
@@ -135,14 +135,14 @@ checkout_less.addEventListener('click', () => {
     let monts = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
     let today = new Date();
-    //let tomorrow = new Date(today);
+    let tomorrow = new Date(today);
 
-    //tomorrow.setDate(tomorrow.getDay() + 1);
+    tomorrow.setDate(tomorrow.getDate() + 1);
 
-    let day = week[today.getDay()];
-    let date = today.getDate();
-    let month = monts[today.getMonth()];
+    let day = week[tomorrow.getDay()];
+    let date = tomorrow.getDate();
+    let month = monts[tomorrow.getMonth()];
     
-    checkin_data.innerText = day + ', ' + date + ' ' + month;
+    checkout_data.innerText = day + ', ' + date + ' ' + month;
 
 })
