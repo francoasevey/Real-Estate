@@ -130,3 +130,19 @@ checkout_more.addEventListener('click', () => {
 
 })
 
+checkout_less.addEventListener('click', () => {
+    const week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+    let monts = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    let today = new Date();
+    //let tomorrow = new Date(today);
+
+    //tomorrow.setDate(tomorrow.getDay() + 1);
+
+    let day = week[today.getDay()];
+    let date = today.getDate();
+    let month = monts[today.getMonth()];
+    
+    checkin_data.innerText = day + ', ' + date + ' ' + month;
+
+})
