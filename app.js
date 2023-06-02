@@ -76,6 +76,8 @@ checkout.addEventListener('change', () => {
 
 let checkin_more = document.getElementById('checkin_more');
 let checkin_less = document.getElementById('checkin_less');
+let checkout_more = document.getElementById('checkout_more');
+let checkout_less = document.getElementById('checkout_less')
 
 checkin_more.addEventListener('click', () => {
     const week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -110,3 +112,21 @@ checkin_less.addEventListener('click', () => {
     checkin_data.innerText = day + ', ' + date + ' ' + month;
 
 })
+
+checkout_more.addEventListener('click', () => {
+    const week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+    var monts = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    let today = new Date();
+    let tomorrow = new Date(today);
+
+    tomorrow.setDate(tomorrow.getDate() + 1);
+
+    let day = week[tomorrow.getDay()];
+    let date = tomorrow.getDate();
+    let month = monts[tomorrow.getMonth()];
+
+    checkin_data.innerText = day + ', ' + date + ' ' + month;
+
+})
+
